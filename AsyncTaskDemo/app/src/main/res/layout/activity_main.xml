@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="25dp"
+    android:gravity="center_horizontal"
+    tools:context="com.example.malai_pt1882.asynctaskdemo.MainActivity">
+
+    <Button
+        android:id="@+id/bikeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:minWidth="120dp"
+        android:text="@string/bike_button" />
+
+    <Button
+        android:id="@+id/carButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="17dp"
+        android:layout_toStartOf="@+id/bikeButton"
+        android:minWidth="120dp"
+        android:text="@string/car_button" />
+
+    <Button
+        android:id="@+id/busButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bikeButton"
+        android:layout_below="@+id/bikeButton"
+        android:minWidth="120dp"
+        android:text="@string/bus_button"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/trainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/carButtons"
+        android:layout_below="@+id/carButtons"
+        android:minWidth="120dp"
+        android:text="@string/train_button"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true" />
+
+
+
+</RelativeLayout>

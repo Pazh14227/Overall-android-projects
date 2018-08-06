@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_layout_id"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/relative_image_id"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_launcher_background"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toEndOf="@id/relative_image_id"
+        android:layout_marginStart="16dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/linear_layout_id">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="roboto"
+            android:textSize="16sp"
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            android:id="@+id/name_text_id"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="roboto"
+            android:textSize="14sp"
+            android:text="@string/app_name"
+            android:id="@+id/email_text_id"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

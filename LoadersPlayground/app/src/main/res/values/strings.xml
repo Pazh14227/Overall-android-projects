@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LoadersPlayground</string>
+    <string name="edit_text">Enter some text</string>
+    <string name="button_text">Add</string>
+    <string name="button2">Open database</string>
+    <string name="zerodata">No data to display</string>
+    <string name="dataAdded">Text added to database</string>
+    <string name="noData">No data to display</string>
+    <string name="enterText">Enter some text</string>
+</resources>

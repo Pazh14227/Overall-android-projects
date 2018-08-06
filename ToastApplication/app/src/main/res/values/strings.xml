@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ToastApplication</string>
+    <string name="editText">Enter a value</string>
+    <string name="button">show toast</string>
+</resources>

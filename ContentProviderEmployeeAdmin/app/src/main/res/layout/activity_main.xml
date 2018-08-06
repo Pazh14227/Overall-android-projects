@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/main_insert_employee_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:minHeight="34dp"
+        android:minWidth="64dp"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp"
+        android:text="Insert Employee"
+        android:textColor="#FFFF" />
+
+    <Button
+        android:id="@+id/main_update_employee_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:minHeight="34dp"
+        android:minWidth="64dp"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp"
+        android:text="update employee"
+        android:textColor="#FFFF" />
+
+    <Button
+        android:id="@+id/main_delete_employee_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:minHeight="34dp"
+        android:minWidth="64dp"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp"
+        android:text="delete employee"
+        android:textColor="#FFFF" />
+
+    <Button
+        android:id="@+id/main_employee_show_button"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp"
+        android:text="SHOW ALL EMPLOYEES"
+        android:textColor="@color/colorPrimary" />
+
+</LinearLayout>

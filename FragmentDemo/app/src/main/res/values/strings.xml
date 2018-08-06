@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FragmentDemo</string>
+    <string name="enableTextButton">Enable Text</string>
+
+    <string name="text_enable_fragment">Click This button to enable text view</string>
+
+    <string name="text_fragment">Text is Enabled via fragment</string>
+</resources>

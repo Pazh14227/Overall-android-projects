@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AsyncTaskDemo</string>
+    <string name="bus_button">Bus Image</string>
+    <string name="train_button">Train Image</string>
+    <string name="bike_button">Bike Image</string>
+    <string name="car_button">Car Image</string>
+</resources>

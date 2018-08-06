@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TaskWithAllLayouts</string>
+    <string name="checkBoxLinear">This is my first android checkBox in Linear Layout</string>
+    <string name="checkBoxRelative">This is my first android checkBox in Relative Layout</string>
+    <string name="checkBoxFrame">This is my first android checkBox in Frame Layout</string>
+    <string name="button1">Task with LinearLayout</string>
+    <string name="button2">Task with RelativeLayout</string>
+    <string name="button3">Task with FrameLayout</string>
+</resources>
